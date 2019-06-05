@@ -1,0 +1,38 @@
+{
+    "name": "vuejs-testing",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "mochapack --webpack-config webpack.config.js --require test/setup.js test/Countdown.spec.js"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/doxuan994/vuejs-testing.git"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/doxuan994/vuejs-testing/issues"
+    },
+    "homepage": "https://github.com/doxuan994/vuejs-testing#readme",
+    "devDependencies": {
+        "@vue/test-utils": "^1.0.0-beta.29",
+        "expect": "^24.8.0",
+        "jsdom": "^15.1.1",
+        "jsdom-global": "^3.0.2",
+        "mocha": "^6.1.4",
+        "mochapack": "^1.1.1",
+        "sinon": "^7.3.2",
+        "vue-loader": "^15.7.0",
+        "vue-template-compiler": "^2.6.10",
+        "webpack": "^4.33.0"
+    },
+    "dependencies": {
+        "axios": "^0.19.0",
+        "moment": "^2.24.0",
+        "moxios": "^0.4.0",
+        "vue": "^2.6.10"
+    }
+}
